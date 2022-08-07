@@ -10,4 +10,4 @@
 - 刚刚 commit 留的信息不小心留错了，而且交到 Github 了，该怎么改呢？
     - `git commit --amend` 改完再 `git push origin HEAD --force` 强制推送。
 - 不小心删了从 Github 上 Clone 的项目的某个文件/文件夹，该怎么恢复呢？
-  - `git reset --hard origin`
+  - `git reset --hard origin/master`或者`git reset --hard origin/main`
