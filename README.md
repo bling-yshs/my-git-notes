@@ -21,3 +21,6 @@
 - 不小心删了从 Github 上 Clone 的项目的某个文件/文件夹，该怎么恢复呢？
   - 需要提前保存好修改过的代码，然后 `git reset --hard origin/master`
   
+- 报错解决三连：  
+   `git config --global --unset http.proxy`  
+   `git config --global http.sslVerify false`
