@@ -24,3 +24,7 @@
 - 报错解决三连：  
    `git config --global --unset http.proxy`  
    `git config --global http.sslVerify false`
+
+- 回退一个commit：
+  - `git reset --hard HEAD^`
+  
